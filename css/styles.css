@@ -1,0 +1,835 @@
+/*THIS MAKES EVERYTHING NONSELECTABLE*/
+body {
+background: #002733;
+
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+#map {
+margin-left: -7%;
+width: 100%;
+}
+
+#leftillustration img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 29.3229%;
+}
+#leftillustration img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	left: -4.166%;
+	width: 41.875%;
+}
+#leftillustration img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width: 37.5%;
+}
+#leftillustration img:nth-child(4) {
+	position: fixed;
+	bottom: 25px;
+	left: 10%;
+	width: 11.3%;
+}
+
+#rightillustration img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	right: -5%;
+	width: 31.718%;
+}
+#rightillustration img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	right: -5%;
+	width: 22.76%;
+}
+#rightillustration img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	right: -5%;
+	width: 39.27%;
+}
+#rightillustration img:nth-child(4) {
+	position: fixed;
+	bottom: 0px;
+	right: -5%;
+	width: 32.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#rightillustration2 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 45.12%;
+	right: -110.6%;
+}
+#rightillustration2 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 29.69%;
+	right: -97.52%;
+}
+#rightillustration2 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 24%;
+	right: -108%;
+}
+
+
+#leftillustration2 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 30.98%;
+	left: 100%;
+}
+#leftillustration2 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 30.55%;
+	left: 100%;
+}
+#leftillustration2 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 30%;
+	left: 105.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#leftillustration3 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 26.17%;
+	left: 198.05%;
+}
+#leftillustration3 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 32%;
+	left: 200.5%;
+}
+#leftillustration3 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 23.32%;
+	left: 202%;
+}
+
+#rightillustration3 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 26.68%;
+	right: -199%;
+}
+#rightillustration3 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 31.6%;
+	right: -196.5625%;
+}
+#rightillustration3 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 31.2%;
+	right: -198.75%;
+}
+
+
+
+
+#leftillustration4 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 41.32%;
+	left: -6.65%;
+	left: 293.35%;
+}
+#leftillustration4 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 20.664%;
+	left: .35%;
+	left: 300.35%;
+}
+#leftillustration4 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 29.14%;
+	left: 7.65%;
+	left: 307.65%;
+}
+
+#rightillustration4 img:nth-child(1) {
+	position: fixed;
+	bottom: 0px;
+	width: 27.35%;
+	right: -4.8%;
+	right: -304.8%;
+}
+#rightillustration4 img:nth-child(2) {
+	position: fixed;
+	bottom: 0px;
+	width: 23.28%;
+	right: 11.17%;
+	right: -288.83%;
+}
+#rightillustration4 img:nth-child(3) {
+	position: fixed;
+	bottom: 0px;
+	width: 19.14%;
+	right: -1.4%;
+	right: -301.4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page1contents {
+position: fixed;
+left: 22.425%;
+width: 55.15%;
+}
+
+.bigquestion {
+color: #BCE3DF;
+font-family: "futura_ltcondensedbold";
+font-size: 4.5em;
+line-height: 1em;
+
+}
+
+.subhead {
+color: #17888D;
+line-height: 1em;
+font-family: "futura_ltbold";
+font-size: .5em;
+margin-bottom: 25px;	
+}
+
+input[type=text] {
+    padding: 10px;
+	width: 5em;
+    background: #17888D;
+    margin: 0 0 10px 0;
+	border: 0px;
+	font-family: "futura_ltbold";
+font-size: .75em;
+color: #002733;
+
+}
+
+input[type=text]:focus {
+background: #BCE3DF;
+box-shadow: 0px 0px 0px #BCE3DF;
+
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+
+#page1contents .subhead {
+margin-top: .25em;	
+}
+
+#citystate, #citystate p {
+color: #BCE3DF;
+display: inline;
+}
+
+#page1contents a {
+text-decoration: none;
+color: #BCE3DF;	
+-webkit-transition: all .25s;
+}
+
+a {
+opacity: .25;	
+}
+
+.fullopacity  {
+opacity : 1;	
+}
+
+
+
+
+
+
+
+#page2contents {
+height: 20px;
+width: 49%;
+position: fixed;	
+left: 25.5%;
+}
+#page2contents .subhead {
+margin-top: 50px;	
+}
+.page2icons {
+	width: 21.25%;
+	float: left;
+	text-align: center;
+	color: #17888D;
+line-height: 1em;
+font-family: "futura_ltbold";
+font-size: 1.125em;
+margin-right: 5%;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+
+}
+#page2iconright {
+margin-right: 0%;
+clear: right;	
+}
+.page2icons p {
+margin-top: 20px;	
+}
+.page2icons:hover {
+opacity: .375;
+cursor: pointer;
+}
+
+.page2iconsopacity {
+opacity: .375;	
+}
+
+#withthismany {
+margin-left: 35%;
+width: 100%;
+float: left;
+}
+#withthismany p {
+	color: #17888D;
+line-height: 1em;
+font-family: "futura_ltbold";
+font-size: 2em;
+margin-top: 25px;
+margin-bottom: 15px;	
+}
+
+#bedroomform {
+font-family: "futura_ltcondensedbold";
+font-size: 4.5em;
+line-height: 1em;
+text-align: right;
+width: 1em;
+background: #EADDCD;
+color: #17888D;
+padding: 20px;
+border: 0;
+    -webkit-border-radius: 20px;
+    border-radius: 20px; 
+	outline: none;
+	height: 1em;
+	float: left;
+	margin-right: 1.25%;
+}
+
+
+#upanddownbuttons {
+	margin-top: 1em;
+	float: left;
+margin-right: 1.875%;
+}
+
+
+#buttonup {
+margin-bottom: .75em;
+font-family: 'icomoon';
+font-size: 3.25em;
+color: #16888D;
+display: inline-block;
+}
+
+#buttondown {
+font-family: 'icomoon';
+font-size: 3.25em;	
+color: #16888D;
+}
+
+#buttonup:hover {
+-webkit-transition: color .25s;
+cursor: pointer;
+color: #BDE3E0;
+}
+
+#buttondown:hover {
+-webkit-transition: color .25s;	
+cursor: pointer;
+color: #BDE3E0;
+}
+
+
+#buttonupbackground {
+width: 3.25em;
+height: 3.25em;
+background: url('../img/buttonuplight.png') no-repeat;
+background-size: 3.21em;	
+margin-bottom: -3.25em;
+}
+
+#buttondownbackground {
+width: 3.25em;
+height: 3.25em;
+background: url('../img/buttondownlight.png') no-repeat;
+background-size: 3.21em;
+margin-bottom: -3.25em;
+}
+
+
+#withthismany #bedrooms {
+margin-top: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page3contents {
+width: 37.86%;
+position: fixed;	
+left: 30.57%;
+}
+#page3contents .bigquestion {
+margin-bottom: 40px;	
+}
+.page3icons div:nth-child(1), .page3icons div:nth-child(2), .page3icons div:nth-child(3) {
+width: 31.33%;
+height: 80px;
+float: left;
+margin-right: 3%;
+-webkit-border-radius: 20px;
+}
+
+.page3icons div:nth-child(3) {
+margin-right: 0%;	
+}
+
+
+.page3icons div {
+background: #D7C4AE;	
+background: #EADDCD;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+margin-bottom: 40px;
+text-align: center;
+font-family: "futura_ltbold";
+color: #002733;
+}
+
+.page3icons div:hover {
+opacity: .25;
+cursor: pointer;
+}
+
+.page3questions {
+	color: #17888D;
+font-size: 1.25em;
+font-family: "futura_ltbold";	
+width: 100%;
+margin-bottom: 15px;
+}
+
+.page3icons p {
+margin-top: 29px;	
+}
+
+
+
+
+
+
+#page0contents {
+position: fixed;
+left: 22.5%;
+width: 55%;
+}
+#canvas3wrapper, #canvas2wrapper, #canvas1wrapper {
+float: left;	
+}
+#canvas2wrapper {
+	background: #ECDFD0;
+padding-right: 30px;
+padding-left: 30px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin-right: 50px;
+margin-left: 50px;
+}
+#canvas1wrapper, #canvas3wrapper {
+margin-top: 30px;	
+}
+#generatednumber {
+position: relative;
+top: -160px;
+color: #002733;
+font-size: 4em;
+font-family: "futura_ltbold";	
+width: 50%;
+margin-left: 25%;
+text-align: center;
+-webkit-animation: fadein 1s;
+animation: fadein 1s;
+}
+#usnumber, #worldnumber {
+position: relative;
+top: -160px;
+color: #17888D;
+font-size: 4em;
+font-family: "futura_ltbold";	
+width: 50%;
+margin-left: 25%;
+text-align: center;
+-webkit-animation: fadein 1s;
+animation: fadein 1s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+#usaverage, #youaverage, #worldaverage {
+color: #17888D;
+font-size: 1.5em;
+font-family: "futura_ltbold";	
+margin-bottom: 15px;
+}
+#youaverage {
+color: #002733;
+}
+#resultskey {
+	font-family: "futura_ltbold";
+	margin-bottom: 5px;
+}
+#resultskeybuttons div {
+width: 35px;
+height: 35px;
+margin-right: 15px;
+float: left;
+}
+#resultskeybuttons div:nth-child(1) {
+background: #CD4A45;
+}
+#resultskeybuttons div:nth-child(2) {
+background: #F4A844;
+}
+#resultskeybuttons div:nth-child(3) {
+background: #6BAB79;
+}
+#resultskeybuttons div:nth-child(4) {
+background: #17888D;
+margin-right: 95px;
+}
+#resultskeybuttons {
+margin-bottom: 55px;	
+}
+#surroundsallkey {
+margin-top: -20px;	
+}
+#resultskeybuttons div:hover {
+opacity: .25;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+}
+#resultsbuttonsubheads {
+margin-top: -10px;	
+}
+#resultsbuttonsubheads div {
+		font-family: "futura_ltbook";
+	display: none;
+	color: #002733;
+}
+#footprintinfo {
+padding-top: 10px;
+width: 290px;
+color: #002733;
+font-family: "futura_ltbook";	
+}
+
+
+
+
+
+
+
+/*PROGRESS BAR*/
+
+#questionnumber {
+position: fixed;
+margin-top: 40px;
+left: 2.5%;
+width:12.5%;
+text-align: center;
+color: #17888D;
+font-family: "futura_ltbold";
+font-size: 1.25em;
+margin-bottom: 25px;
+}
+
+#currentquestionnumber {
+	display:inline;
+}
+
+#progressbar {
+left: 2.5%;
+width: 12.5%;
+height: 25px;
+background: #17888D;	
+position: fixed;
+margin-top: 5px;
+}
+
+#miniprogress {
+height: 25px;
+width: 10%;
+background: #BCE3DF;	
+}
+
+
+
+
+
+
+
+/*BUTTON*/
+#buttonleft {
+position: fixed;
+width: 7em;
+left: 2.5%;
+top: 40%;
+opacity: 1;
+}
+#buttonleftbackground {
+position: fixed;
+left: 2.5%;
+top: 40%;
+width: 7em;
+height: 7em;
+background: url('../img/buttonleftlight.png');
+background-size: 7em;
+}
+
+#buttonright {
+position: fixed;
+width: 7em;
+right: 2.5%;
+top: 40%;
+opacity: 1;
+}
+#buttonrightbackground {
+position: fixed;
+right: 2.5%;
+top: 40%;
+width: 7em;
+height: 7em;
+background: url('../img/buttonrightlight.png');
+background-size: 7em;
+}
+
+#buttonright:hover {
+opacity: 0;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+cursor:pointer;
+}
+
+#buttonleft:hover {
+opacity: 0;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+cursor: pointer;
+}
+
+
+/*WAVE*/
+
+#wave {
+	height: 10em;
+	width: 100%;
+	background-image:url('../img/wave.png');
+    background-repeat:repeat-x;
+	-webkit-animation-name: WAVE-MOVE;
+	-webkit-animation-duration: 300s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+
+transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+
+
+background-size: 10em;
+
+margin-bottom: -1.5em;
+
+}
+
+#wave2 {
+	height: 10em;
+	width: 100%;
+	background-image:url('../img/wave2.png');
+    background-repeat:repeat-x;
+	-webkit-animation-name: WAVE-MOVE;
+	-webkit-animation-duration: 600s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	
+	transform: translate3d(0,0,0);
+-webkit-transform: translate3d(0,0,0);
+
+background-size: 10em;
+margin-top: -2.5em;
+
+margin-bottom: -7em;
+
+}
+
+
+
+@-webkit-keyframes WAVE-MOVE {
+	from {
+		background-position: -5%;
+	}
+	to { 
+		background-position: -600%;
+	}
+}
+
+@-webkit-keyframes WAVE-MOVE {
+	from {
+		background-position: -5%;
+	}
+	to { 
+		background-position: -1300%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FONTS*/
+@font-face {
+    font-family: 'futura_ltbold';
+    src: url('../fonts/futura_lt_bold.eot');
+    src: url('../fonts/futura_lt_bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_lt_bold.woff') format('woff'),
+         url('../fonts/futura_lt_bold.ttf') format('truetype'),
+         url('../fonts/futura_lt_bold.svg#futura_ltbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltcondensedbold';
+    src: url('../fonts/futura_condensed_bold-webfont.eot');
+    src: url('../fonts/futura_condensed_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_condensed_bold-webfont.woff') format('woff'),
+         url('../fonts/futura_condensed_bold-webfont.ttf') format('truetype'),
+         url('../fonts/futura_condensed_bold-webfont.svg#futura_ltcondensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'futura_ltbook';
+    src: url('../fonts/futura_book-webfont.eot');
+    src: url('../fonts/futura_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_book-webfont.woff') format('woff'),
+         url('../fonts/futura_book-webfont.ttf') format('truetype'),
+         url('../fonts/futura_book-webfont.svg#futura_ltbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon?#iefix') format('embedded-opentype'),
+         url('../fonts/icomoon.woff') format('woff'),
+         url('../fonts/icomoon.ttf') format('truetype'),
+         url('../fonts/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,259 @@
+<!--SPECIAL THANK YOU TO CHARTS.JS, ICOMOON, ZIPTASTIC, NATURECONSERVANCY-->
+
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<meta charset='utf-8'>
+  <head>
+      
+      
+      <!--FAVICON-->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  
+    
+    <title>TJ McMicheal</title>
+    
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+  </head>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+<!--DISABLE RIGHT CLICK: <body oncontextmenu="return false">-->  
+  <body>
+ 
+    <div id="wave2"></div>
+    <div id="wave"></div>
+
+
+
+
+
+
+
+<div id="leftillustration">
+<img src="img/3left.png" />
+<img src="img/2left.png" />
+<img src="img/1left.png" />
+<img src="img/0left.png" />
+</div>
+
+<div id="rightillustration">
+<img src="img/3right.png" />
+<img src="img/2right.png" />
+<img src="img/1right.png" />
+<img src="img/0right.png" />
+</div>
+
+
+
+<div id="leftillustration2">
+<img src="img/page2left3.png" />
+<img src="img/page2left2.png" />
+<img src="img/page2left1.png" />
+</div>
+
+<div id="rightillustration2">
+<img src="img/page2right3.png" />
+<img src="img/page2right2.png" />
+<img src="img/page2right1.png" />
+</div>
+
+
+
+<div id="leftillustration3">
+<img src="img/page3left3.png" />
+<img src="img/page3left2.png" />
+<img src="img/page3left1.png" />
+</div>
+
+<div id="rightillustration3">
+<img src="img/page3right3.png" />
+<img src="img/page3right2.png" />
+<img src="img/page3right1.png" />
+</div>
+
+
+
+<div id="leftillustration4">
+<img src="img/page4left3.png" />
+<img src="img/page4left2.png" />
+<img src="img/page4left1.png" />
+</div>
+
+<div id="rightillustration4">
+<img src="img/page4right3.png" />
+<img src="img/page4right2.png" />
+<img src="img/page4right1.png" />
+</div>
+
+
+
+
+<!--PAGE1-->
+<div id="page1contents">
+<div class="bigquestion">WHERE DO YOU LIVE?<div class="subhead">INSERT ZIP CODE: <input type="text" name="zipcode" id="zipcode" pattern="[0-9]*" maxlength="5"> <p id="citystate"><a id="citytext"></a><a id="commaspace"></a><a id="statetext"></a></p></div></div>
+<img src="img/map.png" />
+<div id="canvasbackground"><canvas id="canvas" height="350" width="400"></canvas><div id="examplenumber">25</div></div>
+</div>
+
+
+
+<!--PAGE2-->
+<div id="page2contents">
+<div class="bigquestion">HOME ENERGY (1/2)<div class="subhead">I LIVE IN A...</div></div>
+
+	<div class="page2icons"><img src="img/page2icon1.png" /><p>SINGLE FAMILY HOME (ATTACHED)</p></div>
+	<div class="page2icons"><img src="img/page2icon2.png" /><p>SINGLE FAMILY HOME (DETACHED)</p></div>
+	<div class="page2icons"><img src="img/page2icon3.png" /><p>APARTMENT BUILDING</p></div>
+	<div class="page2icons" id="page2iconright"><img src="img/page2icon4.png" /><p>MOBILE HOME</p></div>
+
+
+<div id="withthismany">
+	<p>WITH...</p>
+    <div id="bedroomform">1</div>
+    <div id="upanddownbuttons">
+		<div id="buttonup"></div>
+		<div id="buttondown"></div>
+    </div>
+    <p id="bedrooms">BEDROOMS</p>
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+<!--PAGE3-->
+
+<div id="page3contents">
+<div class="bigquestion">HOME ENERGY (2/2)</div>
+
+<div class="page3questions">I've taken steps to heat and cool my home efficiently:</div>
+<div id="page3icons1" class="page3icons">
+	<div><p>WHEREVER POSSIBLE</p></div>
+    <div><p>IN SOME AREAS</p></div>
+	<div><p>VERY LITTLE</p></div>
+</div>
+
+<div class="page3questions">I have installed efficient lighting:</div>
+<div id="page3icons2" class="page3icons">
+	<div><p>EVERYWHERE POSSIBLE</p></div>
+    <div><p>IN SOME AREAS</p></div>
+	<div><p>NOT YET</p></div>
+</div>
+
+<div class="page3questions">I use efficient appliances and unplug equipment not in use:</div>
+<div id="page3icons3" class="page3icons">
+	<div><p>ALWAYS</p></div>
+    <div><p>SOMETIMES</p></div>
+	<div><p>RARELY</p></div>
+</div>
+
+<div class="page3questions">I have taken steps to reduce energy used for hot water:</div>
+<div id="page3icons4" class="page3icons">
+	<div><p>AS MUCH AS POSSIBLE</p></div>
+    <div><p>SOMEWHAT</p></div>
+	<div><p>NOT YET</p></div>
+</div>
+
+
+</div>
+
+
+
+
+<!--PAGE0-->
+<div id="page0contents">
+
+<div id="canvas1wrapper">
+	<div id="usaverage">US AVERAGE:</div>
+    <canvas id="canvas1" width="290px" height="290px"></canvas>
+    <div id="usnumber">27</div>
+</div>
+
+<div id="canvas2wrapper">
+	<div id="youaverage">YOU:</div>
+    <canvas id="canvas2" width="290px"  height="290px"></canvas>
+    <div id="generatednumber">20</div>
+    
+   <div id="surroundsallkey"> 
+   	<div id="resultskey">KEY:</div>
+    <div id="resultskeybuttons">
+    	<div id="homeenergy"></div><div id="drivingandflying"></div><div id="recyclingandwaste"></div><div id="foodanddiet"></div>
+    </div>
+    
+    <div id="resultsbuttonsubheads">
+    	<div>HOME ENERGY</div>
+    	<div>DRIVING AND FLYING</div>
+    	<div>RECYCLING AND WASTE</div>
+    	<div>FOOD AND DIET</div>
+    </div>
+   </div> 
+    
+    <div id="footprintinfo">Inevitably, in going about our daily lives — commuting, sheltering our families, eating — each of us contributes to the greenhouse gas emissions that are causing climate change. Yet, there are many things each of us, as individuals, can do to reduce our carbon emissions. The choices we make in our homes, our travel, the food we eat, and what we buy and throw away all influence our carbon footprint and can help ensure a stable climate for future generations.</div>
+
+</div>
+
+<div id="canvas3wrapper">
+	<div id="worldaverage">WORLD AVERAGE:</div>
+    <canvas id="canvas3" width="290px"  height="290px"></canvas>
+    <div id="worldnumber">5.5</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="progressbar"><div id="miniprogress"></div></div>
+<div id="questionnumber">
+QUESTION: <div id="currentquestionnumber">1</div>/10
+</div>
+
+
+
+<div id="buttonleftbackground"></div><img id="buttonleft" src="img/buttonleft.png">
+<div id="buttonrightbackground"></div><img id="buttonright" src="img/buttonright.png">
+            
+
+
+
+    
+  </body>
+      <!-- Scripts --> 
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Chart.js-master/Chart.js"></script>    
+	<script src="js/scripts.js"></script>    
+    
+    
+
+  
+  
+</html>

@@ -1,11 +1,12 @@
 // My Scripts
 $(document).ready(function(){
 	
- //$( "#page1contents" ).fadeOut(0);
-	
+//$( "#page1contents" ).fadeOut(0);
 $( "#page2contents" ).fadeOut(0);
 	$( "#withthismany" ).fadeOut(0);
- $( "#page3contents" ).fadeOut(0);
+$( "#page3contents" ).fadeOut(0);
+$( "#page4contents" ).fadeOut(0);
+	$( "#page4Idrive" ).fadeOut(0);
 $( "#page0contents" ).fadeOut(0);
 
 
@@ -45,10 +46,16 @@ if($("#currentquestionnumber").text() == '3') {
 }
 
 if($("#currentquestionnumber").text() == '4') {
-  $( "#page0contents" ).fadeOut(400);
+  $( "#page4contents" ).fadeOut(400);
   $( "#page3contents" ).delay(1000).fadeIn(1500);
 }
 
+  if($("#currentquestionnumber").text() == '5') {
+  $( "#page0contents" ).fadeOut(400);
+  $( "#page4contents" ).delay(1000).fadeIn(1500);
+}
+
+  
   
   $("#rightillustration img:nth-child(4)").animate({ 
         right: "-=100%",
@@ -109,6 +116,12 @@ if($("#currentquestionnumber").text() == '2') {
 
 if($("#currentquestionnumber").text() == '3') {
   $( "#page3contents" ).fadeOut(400);
+  $( "#page4contents" ).delay(1000).fadeIn(1500);
+}
+
+
+if($("#currentquestionnumber").text() == '4') {
+  $( "#page4contents" ).fadeOut(400);
   $( "#page0contents" ).delay(1000).fadeIn(1500);
   setTimeout(function (){
   	new Chart(document.getElementById("canvas1").getContext("2d")).Doughnut(doughnutData1);
@@ -276,6 +289,34 @@ $("#page3icons4 div").click(function () {
 	$("#page3icons4 div").removeClass( "page2iconsopacity" );
   	$(this).toggleClass( "page2iconsopacity" );
 });
+
+
+
+
+
+/*PAGE4 CONTENT*/
+$(".page4icons img").click(function () {
+	$(".page4icons img").removeClass( "page4iconsopacity" );
+  	$(this).toggleClass( "page4iconsopacity" );
+});
+
+
+$("#page4icongroup div:nth-child(2), #page4icongroup div:nth-child(3), #page4icongroup div:nth-child(4), #page4icongroup div:nth-child(5)").click(function () {
+	  	$( "#page4Idrive" ).fadeIn(600);
+
+});
+
+$("#page4icongroup div:nth-child(1)").click(function () {
+	  	$( "#page4Idrive" ).fadeOut(300);
+
+});
+
+
+$("#page4icons1 div").click(function () {
+	$("#page4icons1 div").removeClass( "page2iconsopacity" );
+  	$(this).toggleClass( "page2iconsopacity" );
+});
+
 
 
 

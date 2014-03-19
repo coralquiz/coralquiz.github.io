@@ -498,6 +498,117 @@ margin-top: 29px;
 
 
 
+
+
+
+#page4contents {
+height: 20px;
+width: 49%;
+position: fixed;	
+left: 25.5%;
+}
+#page4contents .subhead {
+margin-top: 50px;	
+}
+.page4icons {
+	width: 16%;
+	float: left;
+	text-align: center;
+	color: #17888D;
+line-height: 1em;
+font-family: "futura_ltbold";
+font-size: 1.125em;
+margin-right: 5%;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+
+}
+#page4iconright {
+margin-right: 0%;
+clear: right;
+margin-bottom: 30px;	
+}
+.page4icons p {
+margin-top: 20px;	
+}
+.page4icons:hover {
+opacity: .375;
+cursor: pointer;
+}
+
+.page4iconsopacity {
+opacity: .375;	
+}
+
+#page4Idrive {
+width: 75%;
+margin-left: 17.5%;	
+margin-top: 50px;
+}
+
+.page4question {
+	color: #17888D;
+font-size: 1.25em;
+font-family: "futura_ltbold";	
+width: 100%;
+margin-bottom: 15px;
+}
+.page4questionicons div:nth-child(1), .page4questionicons div:nth-child(2), .page4questionicons div:nth-child(3) {
+width: 31.33%;
+height: 80px;
+float: left;
+margin-right: 3%;
+-webkit-border-radius: 20px;
+}
+
+.page4questionicons div:nth-child(3) {
+margin-right: 0%;	
+}
+
+
+.page4questionicons div {
+background: #D7C4AE;	
+background: #EADDCD;
+-webkit-transition: opacity .25s;
+transition: opacity .25s;
+margin-bottom: 40px;
+text-align: center;
+font-family: "futura_ltbold";
+color: #002733;
+}
+
+.page4questionicons div:hover {
+opacity: .25;
+cursor: pointer;
+}
+
+.page4questionicons p {
+margin-top: 29px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #page0contents {
 position: fixed;
 left: 22.5%;

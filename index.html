@@ -12,7 +12,7 @@
 <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   
     
-    <title>TJ McMicheal</title>
+    <title>Carbon Footprint Calculator</title>
     
     <!-- Stylesheets -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,18 @@
 
 
 
+<div id="leftillustration0">
+<img src="img/page0left3.png" />
+<img src="img/page0left2.png" />
+<img src="img/page0left1.png" />
+</div>
 
+
+<div id="rightillustration0">
+<img src="img/page0right3.png" />
+<img src="img/page0right2.png" />
+<img src="img/page0right1.png" />
+</div>
 
 
 
@@ -44,7 +55,6 @@
 <img src="img/3left.png" />
 <img src="img/2left.png" />
 <img src="img/1left.png" />
-<img src="img/0left.png" />
 </div>
 
 <div id="rightillustration">
@@ -53,7 +63,6 @@
 <img src="img/1right.png" />
 <img src="img/0right.png" />
 </div>
-
 
 
 <div id="leftillustration2">
@@ -97,6 +106,95 @@
 </div>
 
 
+<div id="leftillustration5">
+<img src="img/page5left3.png" />
+<img src="img/page5left2.png" />
+<img src="img/page5left1.png" />
+</div>
+
+<div id="rightillustration5">
+<img src="img/page5right3.png" />
+<img src="img/page5right2.png" />
+<img src="img/page5right1.png" />
+</div>
+
+
+<div id="leftillustration6">
+<img src="img/page6left3.png" />
+<img src="img/page6left2.png" />
+<img src="img/page6left1.png" />
+</div>
+
+<div id="rightillustration6">
+<img src="img/page6right3.png" />
+<img src="img/page6right2.png" />
+<img src="img/page6right1.png" />
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--PAGEFRONT-->
+<div id="frontcontents">
+<div class="bigquestion">CARBON FOOTPRINT<br>CALCULATOR</div>
+
+
+<div id="introtext">    
+<canvas id="canvas5" width="290px" height="290px"></canvas>
+    <div id="opennumber">51%</div>
+
+   <div id="surroundsallkey0"> 
+   	<div id="resultskey0">KEY:</div>
+    <div id="resultskeybuttons0">
+    	<div id="homeenergy"></div><div id="drivingandflying"></div><div id="recyclingandwaste"></div>
+    </div>
+    
+    <div id="resultsbuttonsubheads0">
+    	<div><span class="bold">27%</span> ALREADY DEAD</div>
+    	<div><span class="bold">51%</span> COULD DIE</div>
+    	<div><span class="bold">22%</span> ARE HEALTHY</div>
+    </div>
+   </div> 
+   
+<p><span class="bold">27%</span> of coral reefs are already dead from human activity. Another <span class="bold">51%</span> will die within our lifetimes unless we make a change.
+<br><br>
+The largest threats to coral reefs are global warming and ocean acidification. These problems are related to our
+ total greenhouse gas emissions. This carbon footprint calculator estimates how many tons of carbon dioxide and other greenhouse
+gases your choices create each year, so you may be more informed on your influence on the health of world coral reefs.</p>
+</div>
+
+
+<div id="thankyoulist">
+SPECIAL THANK YOU TO:
+
+<div class="listitem">THE NATURE CONSERVANCY<div class="whatgave">Content and statistics</div></div>
+
+<div class="listitem">CHARTS.JS<div class="whatgave">JQuery chart plugin</div></div>
+
+<div class="listitem">ICOMOON<div class="whatgave">Icon font builder</div></div>
+
+<div class="listitem">ZIPTASTIC<div class="whatgave">Country/state autofill</div></div>
+
+<div class="listitem">THE 2014 VCD BFA CLASS<div class="whatgave">Support and critiques</div></div>
+
+<div class="listitem">EWU ART & DESIGN FACULTY<div class="whatgave">Support and critiques</div></div>
+
+
+</div>
+
+
+
+
+</div>
+
+
+
 
 
 <!--PAGE1-->
@@ -107,15 +205,14 @@
 </div>
 
 
-
 <!--PAGE2-->
 <div id="page2contents">
 <div class="bigquestion">HOME ENERGY (1/2)<div class="subhead">I LIVE IN A...</div></div>
 
-	<div class="page2icons"><img src="img/page2icon1.png" /><p>SINGLE FAMILY HOME (ATTACHED)</p></div>
-	<div class="page2icons"><img src="img/page2icon2.png" /><p>SINGLE FAMILY HOME (DETACHED)</p></div>
-	<div class="page2icons"><img src="img/page2icon3.png" /><p>APARTMENT BUILDING</p></div>
-	<div class="page2icons" id="page2iconright"><img src="img/page2icon4.png" /><p>MOBILE HOME</p></div>
+	<div class="page2icons"><img id="page2icon1" src="img/page2icon1.png" /><p>SINGLE FAMILY HOME (ATTACHED)</p></div>
+	<div class="page2icons"><img id="page2icon2" src="img/page2icon2.png" /><p>SINGLE FAMILY HOME (DETACHED)</p></div>
+	<div class="page2icons"><img id="page2icon3" src="img/page2icon3.png" /><p>APARTMENT BUILDING</p></div>
+	<div class="page2icons" id="page2iconright"><img id="page2icon4" src="img/page2icon4.png" /><p>MOBILE HOME</p></div>
 
 
 <div id="withthismany">
@@ -127,6 +224,20 @@
     </div>
     <p id="bedrooms">BEDROOMS</p>
 </div>
+
+
+
+<div id="withthismanypeople">
+	<p>AND...</p>
+    <div id="peopleform">1</div>
+    <div id="upanddownbuttonspeople">
+		<div id="buttonuppeople"></div>
+		<div id="buttondownpeople"></div>
+    </div>
+    <p id="people">PEOPLE<br><a id="includingme">(including me)</a></p>
+</div>
+
+
 
 
 
@@ -192,9 +303,9 @@
 
 <div class="page4question">I drive ...</div>
 <div id="page4icons1" class="page4questionicons">
-	<div><p>RARELY</p></div>
-    <div><p>AVERAGE</p></div>
 	<div><p>OFTEN</p></div>
+    <div><p>AVERAGE</p></div>
+	<div><p>RARELY</p></div>
 </div>
 
 </div>
@@ -205,6 +316,122 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+<!--PAGE5-->
+
+<div id="page5contents">
+<div class="bigquestion">DRIVING & FLYING (2/2)<div class="subhead">IN THE LAST YEAR, I HAVE FLOWN...</div></div>
+
+
+	<div class="page5icons">
+    	<div id="leftsideairplaneicon" style="position: relative; left: 0; top: 0;">
+        	<img class="farbackclouds" src="img/emptybackground.png" style="position: relative; top: 0; left: 0;" />
+            <img class="closeforwardclouds" src="img/emptybackground.png" style="position: absolute; top: 0; left: 0;" />
+            <img class="airplane" src="img/airplane0.png" style="position: absolute; top: 0; left: 0;" />
+    	</div>
+
+<div id="airplaneleft">
+    <div id="airplaneform">1</div>
+    <div id="upanddownbuttons5">
+		<div id="buttonup5"></div>
+		<div id="buttondown5"></div>
+    </div>
+    <p id="bedrooms5"><a>SHORT FLIGHTS</a><br>(UNDER 2 HOURS)</p>
+</div>
+
+</div>	
+
+
+    
+   <div class="page5icons" id="page5rightside">
+   
+    	<div id="rightsideairplaneicon" style="position: relative; left: 0; top: 0;">
+        	<img class="farbackclouds" src="img/emptybackground.png" style="position: relative; top: 0; left: 0;" />
+            <img class="closeforwardclouds" src="img/emptybackground.png" style="position: absolute; top: 0; left: 0;" />
+             <img class="airplane" src="img/airplane1.png" style="position: absolute; top: 0; left: 0;" />
+
+    	</div>
+
+<div id="airplaneright">
+    <div id="airplaneform2">1</div>
+    <div id="upanddownbuttons52">
+		<div id="buttonup52"></div>
+		<div id="buttondown52"></div>
+    </div>
+    <p id="bedrooms52"><a>LONG FLIGHTS</a><br>(OVER 2 HOURS)</p>
+</div>
+
+
+    </div>
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--PAGE6-->
+
+<div id="page6contents">
+<div class="bigquestion">FOOD & RECYCLING</div>
+
+<div class="page6questions">I eat meat:</div>
+<div id="page6icons1" class="page6icons">
+	<div><p>AT MOST MEALS</p></div>
+    <div><p>ON MOST DAYS</p></div>
+	<div><p>RARELY</p></div>
+    <div><p>NEVER</p></div>
+</div>
+
+<div class="page6questions">I eat organic food:</div>
+<div id="page6icons2" class="page6icons">
+	<div><p>MOST OF THE TIME</p></div>
+    <div><p>SOMETIMES</p></div>
+	<div><p>RARELY</p></div>
+</div>
+
+<div class="page6questions">I recycle:</div>
+<div id="page6icons3" class="page6icons">
+	<div><p>AS OFTEN AS POSSIBLE</p></div>
+    <div><p>SOMETIMES</p></div>
+	<div><p>RARELY</p></div>
+</div>
+
+<div class="page6questions">I compost food scraps and yard trimmings:</div>
+<div id="page6icons4" class="page6icons">
+	<div><p>AS OFTEN AS POSSIBLE</p></div>
+    <div><p>SOMETIMES</p></div>
+	<div><p>RARELY</p></div>
+</div>
+
+
+</div>
 
 
 
@@ -224,7 +451,7 @@
 <div id="canvas2wrapper">
 	<div id="youaverage">YOU:</div>
     <canvas id="canvas2" width="290px"  height="290px"></canvas>
-    <div id="generatednumber">20</div>
+    <div id="generatednumber"></div>
     
    <div id="surroundsallkey"> 
    	<div id="resultskey">KEY:</div>
@@ -233,14 +460,14 @@
     </div>
     
     <div id="resultsbuttonsubheads">
-    	<div>HOME ENERGY</div>
-    	<div>DRIVING AND FLYING</div>
-    	<div>RECYCLING AND WASTE</div>
-    	<div>FOOD AND DIET</div>
+    	<div><span class="bold"><span id="homeenergynumber"></span></span> HOME ENERGY</div>
+    	<div><span class="bold"><span id="drivingandflyingnumber"></span></span> DRIVING AND FLYING</div>
+    	<div><span class="bold"><span id="recyclingandwastenumber"></span></span> RECYCLING AND WASTE</div>
+    	<div><span class="bold"><span id="foodanddietnumber"></span></span> FOOD AND DIET</div>
     </div>
    </div> 
     
-    <div id="footprintinfo">Inevitably, in going about our daily lives — commuting, sheltering our families, eating — each of us contributes to the greenhouse gas emissions that are causing climate change. Yet, there are many things each of us, as individuals, can do to reduce our carbon emissions. The choices we make in our homes, our travel, the food we eat, and what we buy and throw away all influence our carbon footprint and can help ensure a stable climate for future generations.</div>
+    <div id="footprintinfo">Your estimated greenhouse gas emissions are <span class="bold"><span id="emissionnumber"></span> tons</span> of carbon dioxide (CO2) equivalent per year, which is <span class="bold"><span id="beloworabove"></span></span>. Inevitably, in going about our daily lives, each of us contributes to the greenhouse gas emissions that are causing climate change. Yet, there are many things each of us can do to reduce our carbon emissions. The choices we make in our homes, our travel, the food we eat, and what we buy and throw away all influence our carbon footprint and can help ensure a stable climate for future generations.</div>
 
 </div>
 
@@ -267,15 +494,18 @@
 
 <div id="progressbar"><div id="miniprogress"></div></div>
 <div id="questionnumber">
-QUESTION: <div id="currentquestionnumber">1</div>/10
+QUESTION: <div id="currentquestionnumber">0</div>/7
 </div>
 
 
+<div id="navbuttons">
+<img id="buttonleftbackground" src="img/buttonleftlight.png"><img id="buttonleft" src="img/buttonleft.png">
+<img id="buttonrightbackground" src="img/buttonrightlight.png"><img id="buttonright" src="img/buttonright.png">
+</div>            
 
-<div id="buttonleftbackground"></div><img id="buttonleft" src="img/buttonleft.png">
-<div id="buttonrightbackground"></div><img id="buttonright" src="img/buttonright.png">
-            
+<div id="starticon">BEGIN QUIZ</div>
 
+<A class="fullopacity" HREF="javascript:history.go(0)"><div id="buttonretake">RETAKE QUIZ</div></A>
 
 
     
